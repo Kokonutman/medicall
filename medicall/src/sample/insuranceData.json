@@ -1,0 +1,137 @@
+{
+  "activeMembers": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "policyNumber": "INS-001234",
+      "planType": "Premium",
+      "lastInteraction": "Annual physical exam on 11/15/2024 at City General Hospital"
+    },
+    {
+      "id": 2,
+      "name": "Sarah Johnson",
+      "policyNumber": "INS-001235",
+      "planType": "Basic",
+      "lastInteraction": "Flu vaccination on 12/01/2024 at Metro Health Clinic"
+    },
+    {
+      "id": 3,
+      "name": "Michael Chen",
+      "policyNumber": "INS-001236",
+      "planType": "Premium Plus",
+      "lastInteraction": "Emergency room visit for chest pain on 10/15/2024 at Regional Medical Center"
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "policyNumber": "INS-001237",
+      "planType": "Basic",
+      "lastInteraction": "Prescription refill for diabetes medication on 11/30/2024 at Community Pharmacy"
+    },
+    {
+      "id": 5,
+      "name": "Robert Wilson",
+      "policyNumber": "INS-001238",
+      "planType": "Premium",
+      "lastInteraction": "Orthopedic consultation for knee injury on 12/05/2024 at Sports Medicine Center"
+    },
+    {
+      "id": 6,
+      "name": "Lisa Thompson",
+      "policyNumber": "INS-001239",
+      "planType": "Premium Plus",
+      "lastInteraction": "Mammography screening on 12/10/2024 at Women's Health Institute"
+    }
+  ],
+  "hospitalUsage": [
+    {
+      "id": 1,
+      "hospital": "City General Hospital",
+      "location": "Los Angeles, CA",
+      "totalVisits": 1247,
+      "avgCostPerVisit": 1965,
+      "mostCommon": "Emergency Care"
+    },
+    {
+      "id": 2,
+      "hospital": "Metropolitan Medical Center",
+      "location": "New York, NY",
+      "totalVisits": 892,
+      "avgCostPerVisit": 2120,
+      "mostCommon": "Cardiology"
+    },
+    {
+      "id": 3,
+      "hospital": "Regional Health System",
+      "location": "Chicago, IL",
+      "totalVisits": 654,
+      "avgCostPerVisit": 2018,
+      "mostCommon": "Orthopedics"
+    },
+    {
+      "id": 4,
+      "hospital": "Community Care Hospital",
+      "location": "Houston, TX",
+      "totalVisits": 543,
+      "avgCostPerVisit": 1805,
+      "mostCommon": "Primary Care"
+    },
+    {
+      "id": 5,
+      "hospital": "St. Mary's Medical Center",
+      "location": "Phoenix, AZ",
+      "totalVisits": 421,
+      "avgCostPerVisit": 2019,
+      "mostCommon": "Surgery"
+    },
+    {
+      "id": 6,
+      "hospital": "University Hospital",
+      "location": "Philadelphia, PA",
+      "totalVisits": 389,
+      "avgCostPerVisit": 2005,
+      "mostCommon": "Neurology"
+    }
+  ],
+  "demographicsData": {
+    "totalActiveMembers": 8300,
+    "totalHospitalsCovered": 247,
+    "ageGroups": [
+      { "range": "18-25", "count": 1250, "percentage": 15 },
+      { "range": "26-35", "count": 2100, "percentage": 25 },
+      { "range": "36-45", "count": 1890, "percentage": 23 },
+      { "range": "46-55", "count": 1680, "percentage": 20 },
+      { "range": "56-65", "count": 1050, "percentage": 13 },
+      { "range": "65+",   "count": 330,  "percentage": 4  }
+    ],
+    "sexComposition": [
+      { "sex": "Male",   "percentage": 48, "count": 3984 },
+      { "sex": "Female", "percentage": 52, "count": 4316 }
+    ],
+    "locationData": [
+      { "state": "CA", "density": 85, "members": 1245 },
+      { "state": "TX", "density": 72, "members": 987 },
+      { "state": "NY", "density": 68, "members": 856 },
+      { "state": "FL", "density": 61, "members": 743 },
+      { "state": "IL", "density": 45, "members": 612 },
+      { "state": "PA", "density": 38, "members": 523 },
+      { "state": "OH", "density": 32, "members": 445 },
+      { "state": "GA", "density": 28, "members": 387 },
+      { "state": "NC", "density": 25, "members": 342 },
+      { "state": "MI", "density": 22, "members": 298 }
+    ],
+    "topSymptoms": [
+      { "symptom": "Headache", "percentage": 18, "count": 1494 },
+      { "symptom": "Back Pain", "percentage": 15, "count": 1245 },
+      { "symptom": "Fatigue", "percentage": 12, "count": 996 },
+      { "symptom": "Cough", "percentage": 10, "count": 830 },
+      { "symptom": "Fever", "percentage": 8, "count": 664 },
+      { "symptom": "Other", "percentage": 37, "count": 3071 }
+    ],
+    "insuranceTypes": [
+      { "type": "Premium Plus", "percentage": 35, "count": 2905 },
+      { "type": "Premium",      "percentage": 40, "count": 3320 },
+      { "type": "Basic",        "percentage": 25, "count": 2075 }
+    ]
+  }
+}

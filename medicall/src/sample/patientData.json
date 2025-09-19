@@ -1,0 +1,42 @@
+{
+  "personalInfo": {
+    "fullName": "John Doe",
+    "dob": "1985-03-15",
+    "sex": "Male",
+    "insurance": "Blue Cross Blue Shield",
+    "policy": "ABC1234567",
+    "zip": "20742",
+    "allergies": "None"
+  },
+  "upcomingAppointment": {
+    "doctor": "Dr. Sarah Johnson",
+    "specialty": "Cardiologist",
+    "hospital": "City General Hospital",
+    "date": "2025-06-26",
+    "time": "10:30 AM",
+    "reason": "Frequent chest pain and shortness of breath"
+  },
+  "prescriptions": [
+    {
+      "id": 1,
+      "name": "Lisinopril",
+      "dosage": "10mg",
+      "frequency": "Once daily",
+      "renewalDate": "2025-06-15"
+    },
+    {
+      "id": 2,
+      "name": "Metformin",
+      "dosage": "500mg",
+      "frequency": "Twice daily",
+      "renewalDate": "2025-08-20"
+    },
+    {
+      "id": 3,
+      "name": "Vitamin D3",
+      "dosage": "1000IU",
+      "frequency": "Once daily",
+      "renewalDate": "2025-07-10"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "personalInfo": {
+    "name": "Dr. Jane Doe",
+    "specialty": "Internal Medicine",
+    "hospital": "City General Hospital",
+    "license": "MD-12345678"
+  },
+  "todaysAppointments": [
+    {
+      "id": 1,
+      "time": "9:00 AM",
+      "patient": "Sarah Johnson",
+      "reason": "Annual Checkup",
+      "risk": "Low"
+    },
+    {
+      "id": 2,
+      "time": "10:30 AM",
+      "patient": "Michael Chen",
+      "reason": "Follow-up Consultation",
+      "risk": "Moderate"
+    },
+    {
+      "id": 3,
+      "time": "2:00 PM",
+      "patient": "Emily Davis",
+      "reason": "Prescription Renewal",
+      "risk": "Low"
+    },
+    {
+      "id": 4,
+      "time": "3:30 PM",
+      "patient": "Robert Wilson",
+      "reason": "Symptom Assessment",
+      "risk": "High"
+    },
+    {
+      "id": 5,
+      "time": "4:15 PM",
+      "patient": "Lisa Thompson",
+      "reason": "Lab Results Review",
+      "risk": "Moderate"
+    }
+  ],
+  "timeSlots": [
+    "8:00 AM", "9:00 AM", "10:00 AM", "11:00 AM", "12:00 PM",
+    "1:00 PM", "2:00 PM", "3:00 PM", "4:00 PM", "5:00 PM", "6:00 PM"
+  ]
+}
