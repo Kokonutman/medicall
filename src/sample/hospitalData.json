@@ -1,0 +1,327 @@
+{
+  "overviewData": {
+    "totalPatients": 2847,
+    "totalDoctors": 23,
+    "todayAppointments": 156,
+    "triageCallsWeek": 342,
+    "topSymptoms": [
+      "Headache",
+      "Back Pain",
+      "Fatigue"
+    ],
+    "prescriptionsToRenew": 89
+  },
+  "patientsData": [
+    {
+      "id": 1,
+      "name": "John Michael Smith",
+      "patientId": "P-001234",
+      "dob": "1985-03-15",
+      "insuranceProvider": "Blue Cross Blue Shield",
+      "lastVisit": "Hypertension checkup on 15 December 2024"
+    },
+    {
+      "id": 2,
+      "name": "Emily Rose Davis",
+      "patientId": "P-001235",
+      "dob": "1992-07-22",
+      "insuranceProvider": "Aetna",
+      "lastVisit": "Diabetes consultation on 10 December 2024"
+    },
+    {
+      "id": 3,
+      "name": "Robert James Wilson",
+      "patientId": "P-001236",
+      "dob": "1957-11-08",
+      "insuranceProvider": "Medicare",
+      "lastVisit": "Cardiac arrhythmia on 8 December 2024"
+    },
+    {
+      "id": 4,
+      "name": "Sarah Michelle Johnson",
+      "patientId": "P-001237",
+      "dob": "1990-05-12",
+      "insuranceProvider": "Cigna",
+      "lastVisit": "Annual physical exam on 12 December 2024"
+    },
+    {
+      "id": 5,
+      "name": "Michael David Chen",
+      "patientId": "P-001238",
+      "dob": "1978-09-30",
+      "insuranceProvider": "United Healthcare",
+      "lastVisit": "Back pain treatment on 5 December 2024"
+    },
+    {
+      "id": 6,
+      "name": "Lisa Marie Thompson",
+      "patientId": "P-001239",
+      "dob": "1983-12-18",
+      "insuranceProvider": "Humana",
+      "lastVisit": "Headache evaluation on 14 December 2024"
+    }
+  ],
+  "appointmentsData": [
+    {
+      "id": 1,
+      "date": "2024-12-16",
+      "time": "9:00 AM",
+      "patient": "Sarah Johnson",
+      "doctor": "Dr. Sarah Wilson",
+      "reason": "Chest pain and shortness of breath during exercise"
+    },
+    {
+      "id": 2,
+      "date": "2024-12-16",
+      "time": "10:30 AM",
+      "patient": "Michael Chen",
+      "doctor": "Dr. Michael Chen",
+      "reason": "Follow-up for diabetes management and blood sugar monitoring"
+    },
+    {
+      "id": 3,
+      "date": "2024-12-16",
+      "time": "11:15 AM",
+      "patient": "Emily Davis",
+      "doctor": "Dr. Amanda Rodriguez",
+      "reason": "Annual physical examination and routine health screening"
+    },
+    {
+      "id": 4,
+      "date": "2024-12-16",
+      "time": "2:00 PM",
+      "patient": "Robert Wilson",
+      "doctor": "Dr. Robert Kim",
+      "reason": "Knee pain and mobility issues after recent injury"
+    },
+    {
+      "id": 5,
+      "date": "2024-12-16",
+      "time": "3:30 PM",
+      "patient": "Lisa Thompson",
+      "doctor": "Dr. Jennifer Martinez",
+      "reason": "Persistent headaches and vision changes"
+    },
+    {
+      "id": 6,
+      "date": "2024-12-17",
+      "time": "9:30 AM",
+      "patient": "David Brown",
+      "doctor": "Dr. David Thompson",
+      "reason": "Memory concerns and cognitive assessment"
+    }
+  ],
+  "prescriptionsData": [
+    {
+      "id": 1,
+      "patient": "John Michael Smith",
+      "medication": "Lisinopril",
+      "dosage": "10mg",
+      "duration": "30 days",
+      "issueDate": "2024-11-16",
+      "refillDate": "2024-12-16"
+    },
+    {
+      "id": 2,
+      "patient": "Emily Rose Davis",
+      "medication": "Metformin",
+      "dosage": "500mg twice daily",
+      "duration": "90 days",
+      "issueDate": "2024-10-20",
+      "refillDate": "2025-01-18"
+    },
+    {
+      "id": 3,
+      "patient": "Robert James Wilson",
+      "medication": "Atorvastatin",
+      "dosage": "20mg",
+      "duration": "30 days",
+      "issueDate": "2024-11-25",
+      "refillDate": "2024-12-25"
+    },
+    {
+      "id": 4,
+      "patient": "Sarah Michelle Johnson",
+      "medication": "Levothyroxine",
+      "dosage": "75mcg",
+      "duration": "90 days",
+      "issueDate": "2024-09-15",
+      "refillDate": "2024-12-14"
+    },
+    {
+      "id": 5,
+      "patient": "Michael David Chen",
+      "medication": "Ibuprofen",
+      "dosage": "400mg as needed",
+      "duration": "14 days",
+      "issueDate": "2024-12-05",
+      "refillDate": "2024-12-19"
+    },
+    {
+      "id": 6,
+      "patient": "Lisa Marie Thompson",
+      "medication": "Sumatriptan",
+      "dosage": "50mg as needed",
+      "duration": "30 days",
+      "issueDate": "2024-11-14",
+      "refillDate": "2024-12-14"
+    }
+  ],
+  "doctorsData": [
+    {
+      "id": 1,
+      "name": "Dr. Sarah Wilson",
+      "medicalLicense": "MD-12345678",
+      "specialty": "Cardiology",
+      "schedule": [ true, false, true, true, false, true, true, false, true, false ]
+    },
+    {
+      "id": 2,
+      "name": "Dr. Michael Chen",
+      "medicalLicense": "MD-23456789",
+      "specialty": "Endocrinology",
+      "schedule": [ false, true, true, false, true, true, false, true, true, false ]
+    },
+    {
+      "id": 3,
+      "name": "Dr. Amanda Rodriguez",
+      "medicalLicense": "MD-34567890",
+      "specialty": "Internal Medicine",
+      "schedule": [ true, true, false, true, true, false, true, false, true, true ]
+    },
+    {
+      "id": 4,
+      "name": "Dr. Robert Kim",
+      "medicalLicense": "MD-45678901",
+      "specialty": "Orthopedics",
+      "schedule": [ false, false, true, true, true, true, false, true, false, true ]
+    },
+    {
+      "id": 5,
+      "name": "Dr. Jennifer Martinez",
+      "medicalLicense": "MD-56789012",
+      "specialty": "Pediatrics",
+      "schedule": [ true, false, false, true, false, true, true, true, false, true ]
+    },
+    {
+      "id": 6,
+      "name": "Dr. David Thompson",
+      "medicalLicense": "MD-67890123",
+      "specialty": "Neurology",
+      "schedule": [ false, true, true, true, false, false, true, true, true, false ]
+    }
+  ],
+  "performanceData": {
+    "appointmentImprovement": {
+      "percentage": 23,
+      "isPositive": true,
+      "description": "up from last week"
+    },
+    "patientSatisfaction": {
+      "percentage": 87,
+      "description": "Patient Satisfaction Rate"
+    },
+    "doctorPerformance": [
+      {
+        "id": 1,
+        "doctor": "Dr. Sarah Wilson",
+        "appointmentsPerWeek": 42,
+        "change": {
+          "percentage": 18,
+          "isPositive": true,
+          "description": "up from last week"
+        }
+      },
+      {
+        "id": 2,
+        "doctor": "Dr. Michael Chen",
+        "appointmentsPerWeek": 38,
+        "change": {
+          "percentage": 12,
+          "isPositive": true,
+          "description": "up from last week"
+        }
+      },
+      {
+        "id": 3,
+        "doctor": "Dr. Amanda Rodriguez",
+        "appointmentsPerWeek": 35,
+        "change": {
+          "percentage": 8,
+          "isPositive": false,
+          "description": "down from last week"
+        }
+      },
+      {
+        "id": 4,
+        "doctor": "Dr. Robert Kim",
+        "appointmentsPerWeek": 40,
+        "change": {
+          "percentage": 25,
+          "isPositive": true,
+          "description": "up from last week"
+        }
+      },
+      {
+        "id": 5,
+        "doctor": "Dr. Jennifer Martinez",
+        "appointmentsPerWeek": 33,
+        "change": {
+          "percentage": 15,
+          "isPositive": false,
+          "description": "down from last week"
+        }
+      },
+      {
+        "id": 6,
+        "doctor": "Dr. David Thompson",
+        "appointmentsPerWeek": 37,
+        "change": {
+          "percentage": 22,
+          "isPositive": true,
+          "description": "up from last week"
+        }
+      }
+    ]
+  },
+  "healthTrendsData": {
+    "topSymptoms": [
+      { "symptom": "Headache", "percentage": 18, "count": 1494 },
+      { "symptom": "Back Pain", "percentage": 15, "count": 1245 },
+      { "symptom": "Fatigue", "percentage": 12, "count": 996 },
+      { "symptom": "Cough", "percentage": 10, "count": 830 },
+      { "symptom": "Fever", "percentage": 8, "count": 664 },
+      { "symptom": "Other", "percentage": 37, "count": 3071 }
+    ],
+    "riskDistribution": [
+      { "risk": "Low", "percentage": 45, "count": 3735 },
+      { "risk": "Moderate", "percentage": 35, "count": 2905 },
+      { "risk": "High", "percentage": 20, "count": 1660 }
+    ],
+    "ageGroups": [
+      { "range": "18-25", "count": 1250, "percentage": 15 },
+      { "range": "26-35", "count": 2100, "percentage": 25 },
+      { "range":
+"36-45", "count": 1890, "percentage": 23 },
+      { "range": "46-55", "count": 1680, "percentage": 20 },
+      { "range": "56-65", "count": 1050, "percentage": 13 },
+      { "range": "65+", "count": 330, "percentage": 4 }
+    ],
+    "sexComposition": [
+      { "sex": "Male", "percentage": 48, "count": 3984 },
+      { "sex": "Female", "percentage": 52, "count": 4316 }
+    ],
+    "durationComposition": [
+      { "duration": "Acute (< 1 week)", "percentage": 35, "count": 2905 },
+      { "duration": "Chronic (> 3 months)", "percentage": 65, "count": 5395 }
+    ],
+    "symptomsOverTime": [
+      { "month": "Aug", "count": 1580 },
+      { "month": "Sep", "count": 1350 },
+      { "month": "Oct", "count": 1720 },
+      { "month": "Nov", "count": 1650 },
+      { "month": "Dec", "count": 1890 },
+      { "month": "Jan", "count": 1420 }
+    ]
+  }
+}
